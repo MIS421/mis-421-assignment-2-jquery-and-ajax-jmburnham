@@ -1,1 +1,17 @@
- 
+#site {
+    position: absolute;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/32/77/cartoon-fried-and-fresh-eggs-background-pattern-vector-17933277.webp)
+}
+
+#luckyButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#searchResults{
+    visibility:hidden;
+}
+
+#time {
+    visibility: hidden;
+}

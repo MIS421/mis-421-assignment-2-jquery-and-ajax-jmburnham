@@ -3,14 +3,42 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8" />
 
-  <link rel="stylesheet" href="./style.css">
+    <title>Eggle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/eggplant/jquery-ui.css" integrity="sha384-1hqwxjTVhFS+ncx0Gk2AZBvL/qovkCx0jg6EBiYSXofkY7ClWZRdP1A95nwGCHup" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 
-<body>
+<body id="site">
 
-  <script type="text/javascript" src="./script.js"></script>
+
+
+    
+    <h1 id="header" class="ui-widget-header">Eggle</h1>
+    <input type="text" id="query" class="ui-autocomplete-input" />
+    <div>
+        <button id="searchButton" class="ui-button ui-corner-all ui-widget" value="Search">Search</button>
+    </div>
+        <button id="luckyButton" class="ui-button ui-corner-all ui-widget" value="Lucky">I'm Feeling Lucky!</button>
+    
+    <p>&nbsp;</p>
+
+
+    <div>
+        <button id="timeBtn" class="ui-button ui-corner-all ui-widget">Fetching time...</button>
+    </div>
+    
+    
+    <div id="searchResults"></div>
+
+    <div id="time"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
